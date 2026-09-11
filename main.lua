@@ -35,12 +35,12 @@ local ENV_BITS          = {colour = { r = 200, g = 100, b = 255 },  shade = 0.5,
 local ENV_GOLD_CLOUDS   = {colour = { r = 255, g = 180, b = 120 },  shade = 1,      glow = false,   sky = SKYBOX_CLOUDS}
 local ENV_SNOW          = {colour = { r = 150, g = 160, b = 220 },  shade = 0.9,    glow = false,   sky = SKYBOX_WINTER}
 local ENV_SNOW_INDOOR   = {colour = { r = 150, g = 160, b = 220 },  shade = 0.9,    glow = false,   sky = SKYBOX_NONE}
-local ENV_SPOOKY        = {colour = { r = 100, g =  70, b =  50 },  shade = 0,      glow = true,    sky = SKYBOX_SPOOKY}
+local ENV_SPOOKY        = {colour = { r = 100, g =  70, b =  50 },  shade = 0.1,    glow = true,    sky = SKYBOX_SPOOKY}
 local ENV_SNOW_NIGHT    = {colour = { r =  50, g =  70, b = 120 },  shade = 0.5,    glow = true,    sky = SKYBOX_NIGHT}
 local ENV_DUNGEON       = {colour = { r = 130, g = 100, b =  50 },  shade = 0.2,    glow = true,    sky = SKYBOX_NONE}
 local ENV_DESERT        = {colour = { r = 255, g = 200, b = 120 },  shade = 0.8,    glow = false,   sky = SKYBOX_DESERT}
 local ENV_GLOOMY        = {colour = { r = 130, g = 150, b = 180 },  shade = 0.7,    glow = false,   sky = SKYBOX_GLOOMY}
-local ENV_DARKWORLD     = {colour = { r =  80, g = 180, b = 150 },  shade = 0,      glow = true,    sky = SKYBOX_DARKWORLD}
+local ENV_DARKWORLD     = {colour = { r =  80, g = 180, b = 150 },  shade = 0.1,    glow = true,    sky = SKYBOX_DARKWORLD}
 local ENV_UNDERWATER    = {colour = { r = 120, g = 130, b = 230 },  shade = 1,      glow = false,   sky = SKYBOX_UNDERWATER}
 local ENV_INDOOR        = {colour = { r = 255, g = 220, b = 160 },  shade = 0.8,    glow = false,   sky = SKYBOX_NONE}
 local ENV_SLIDE         = {colour = { r = 255, g = 180, b = 100 },  shade = 0.8,    glow = false,   sky = SKYBOX_NONE}
@@ -53,7 +53,7 @@ local ENV_NIGHT         = {colour = { r =  80, g = 110, b = 170 },  shade = 0.2,
 local ENV_SPACE         = {colour = { r = 170, g = 150, b = 255 },  shade = 0.5,    glow = false,   sky = SKYBOX_SPACE}
 -- eureka
 local ENV_CAVE          = {colour = { r =  80, g = 110, b = 170 },  shade = 0.2,    glow = true,    sky = SKYBOX_NONE}
-local ENV_NIGHT_CITY    = {colour = { r =  50, g =  70, b = 100 },  shade = 0,      glow = true,    sky = SKYBOX_NONE}
+local ENV_NIGHT_CITY    = {colour = { r =  50, g =  70, b = 100 },  shade = 0.1,    glow = true,    sky = SKYBOX_NONE}
 local ENV_CASTLE        = {colour = { r = 200, g = 180, b = 100 },  shade = 0.4,    glow = false,   sky = SKYBOX_NONE}
 local ENV_SPACE_RED     = {colour = { r = 255, g = 100, b = 200 },  shade = 0.5,    glow = false,   sky = SKYBOX_SPACE_RED}
 
