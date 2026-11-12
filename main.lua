@@ -1,4 +1,4 @@
--- name: \\#008000\\Jer's Ambience
+-- name: \\#008000\\Jer's Jambience
 -- incompatible: light environment-tint
 -- description: Description
 
